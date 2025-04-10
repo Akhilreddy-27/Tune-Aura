@@ -1,0 +1,113 @@
+<!DOCTYPE html>         
+<html>
+    <head>
+        <link rel="stylesheet" href="songsc.css">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    </head>
+    <body>
+        <div class="top">
+            <div class="top">
+                <div><i class="fa-brands fa-spotify"></i></div>
+                <div><i class="fa-solid fa-house"></i></div>
+                <div class="search"><i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="What do you want to play?"></div>
+                <i class="fa-regular fa-browsers"></i>
+            </div>
+            
+            <div class="top" style="font-weight: bold;">
+                <div class="pre"><a href=" ">Premium</a></div>
+                <div class="pre"><a href=" ">Support</a></div>
+                <div class="pre"><a href=" ">Download</a></div>
+                <i class="fa-regular fa-pipe"></i>
+            </div>
+            <div class="top" style="font-weight: bold;font-size: small;">
+                <div class="pre2"><span><i class="fa-sharp fa-regular fa-circle-down"></i></span><a href=" ">Install app</a></div>
+                <div class="pre2"><a href=" ">Sign up</a></div>
+                
+            </div>
+            <div class="top">
+                <div class="lo"><button>Log in</button></div>
+            </div>
+        </div>
+        <div class="left" >
+            <div class="lib">
+                <div class="lib"><i class="fa-light fa-books"></i><h3 >Your Library</h3></div>
+                <div class="plus"><h2 >+</h2></div>
+            </div>
+            <div class="playlist">
+                <h3><b>Create yout first playlist<b></h3>
+                <h4>It's easy,we'll help you</h4>
+                <a href=""><div class="createplay">Create playlist</div></a>
+            </div>
+            <div class="playlist">
+                <h3>Let's find some podcasts to follow</h3>
+                <h4>We'll keep you updated on new episodes</h4>
+                <a href=""><div class="browsep">Browse podcasts</div></a>
+            </div>
+            <div class="leg" style="font-size: small;">
+                <div class="leg"><a href="">Legal</a></div>
+                <div class="leg"><a href="">Safety&PrivacyCenter</a></div>
+                <div class="leg"><a href="">Privacy Policy</a></div>
+                <div class="leg"><a href="">Cookies</a></div>
+            </div>
+            <div class="leg2" style="font-size: small;">
+                <div class="leg2"><a href="">About Ads</a></div>
+                <div class="leg2"><a href="">Accesssiblity</a></div>
+            </div>
+            <div class="cook"><a href="" >Cookies</a></div>
+            <div class="eng">
+                <div><i class="fa-solid fa-globe"></i>English</div>
+            </div>
+        </div>
+
+        <div class="right" >
+            <div class="photo">
+                <img src="pritam.jpeg">
+                <div class="cont">
+                    <h5>Public playlist</h5>
+                    <h1>Pritam playlist</h2>
+                    <h3>Vishal-Shekhar,Sachin-Jigar and KK</h3>
+                </div>
+
+               
+            </div>
+            <div class="musiclist">
+                <div class="one" id="it"><img src="itachi.jpeg"> <h4><a>Itachi's Theme</a></h4></div>
+                <div class="one" id="mas"><img src="master.jpeg"> <h4><a>Chitty story</a></h4></div>
+                <div class="one" id="sum"><img src="summertimesad.jpeg"><h4><a>Summertime Sadness</a></h4></div>
+            </div>
+
+        </div>
+
+        <div class="downone">
+
+            <div class="controls">
+                <div id="back" ><i class="fa-solid fa-backward-step"  ></i></div>
+                <div id="now" onclick="playsong()"><i class="fa-solid fa-play"></i></div>
+                <div id="next" ><i class="fa-solid fa-forward-step"></i></div>
+            </div>
+
+            <div class="time">
+            
+                <input type="range" value="0" id="progress">
+        
+                <audio  id="song"  >
+                    <source src="itachi.mp3" type="audio/mpeg" >
+                </audio><br>
+        
+    
+            </div>
+            
+        </div> 
+        
+        
+    
+        <script src="music.js"></script>
+        
+    </body>
+</html>

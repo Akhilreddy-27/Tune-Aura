@@ -1,0 +1,39 @@
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+#progress{
+    height:6px;
+    width: 300px;
+    background-color: #f53192;
+    border-radius: 4px;
+    cursor:pointer;
+    margin: 40px 0px;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #f53192;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid black;
+    
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls div{
+    min-width: 50px;
+    height: 60px;
+    margin: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
